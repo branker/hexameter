@@ -22,7 +22,7 @@ class Converter:
                     continue
                 c2 = betacode[i + 1]
                 if c2 in map_b2u_sigma:
-                    self.append_out(map_b2u_sigmal[c2])
+                    self.append_out(map_b2u_sigma[c2])
                     i += 2
                     continue
                 if c2 == "'":
